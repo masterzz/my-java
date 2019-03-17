@@ -4,22 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 	2.和尚吃馒头问题
- * 		100馒头
- * 		50个和尚，每个和尚一次只能吃一个馒头，但是最多只允许吃三个馒头。
- * 		看每个和尚各吃了多少馒头。
+ * 2.和尚吃馒头问题
+ * 100馒头
+ * 50个和尚，每个和尚一次只能吃一个馒头，但是最多只允许吃三个馒头。
+ * 看每个和尚各吃了多少馒头。
  */
 public class Practice2 {
     public static void main(String[] args) {
         List<Monk> monkList = new ArrayList<Monk>();
-        List<Bun> bunList = new ArrayList<Bun>();
+        BunPool bunPool = new BunPool();
 
-        for (int i = 0; i < 100; i ++) {
-            bunList.add(new Bun("Bun " + i));
-        }
-
-        for (int i = 0; i < 50 ; i++) {
-            monkList.add(new Monk("monk" + i, bunList));
+        for (int i = 0; i < 50; i++) {
+            monkList.add(new Monk("monk" + i, bunPool));
         }
 
         for (Monk monk : monkList)
@@ -28,29 +24,35 @@ public class Practice2 {
     }
 }
 
-class Monk implements Runnable{
-    private  List<Bun> bunList;
+class Monk implements Runnable {
+    private BunPool bunPool;
     private String name;
     private List<Bun> eatList;
 
-    Monk(String name, List<Bun>  bunList) {
+    Monk(String name, BunPool bunPool) {
         this.name = name;
-        this.bunList = bunList;
+        this.bunPool = bunPool;
         this.eatList = new ArrayList<Bun>();
     }
 
     @Override
     public void run() {
-        while (true)
+        while (this.eatList.size() < 3) {
             eat();
+        }
     }
 
     private void eat() {
-        Thread.currentThread().setName(this.name);
-        System.out.println(Thread.currentThread().getName() + " eat");
-        if(eatList.size() == 3)
-            return;
+        Bun bun = this.bunPool.decrease();
 
+        if (bun != null) {
+            this.eatList.add(bun);
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }
 
@@ -59,5 +61,37 @@ class Bun {
 
     Bun(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
+
+class BunPool {
+    private List<Bun> bunList;
+
+    BunPool() {
+        bunList = new ArrayList<Bun>();
+        for (int i = 0; i < 100; i++) {
+            bunList.add(new Bun("bun " + i));
+        }
+    }
+
+    public Bun decrease() {
+        synchronized (this) {
+//            如果还有馒头
+            if(bunList.size() > 0) {
+                try {
+//                    和尚吃馒头
+                    Bun bun = this.bunList.remove( 0);
+                    System.out.println(Thread.currentThread().getName() + " eat " + bun.getName());
+                    return bun;
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+            return null;
+        }
     }
 }
