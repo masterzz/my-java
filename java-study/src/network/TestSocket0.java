@@ -6,13 +6,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.*;
-import java.util.StringTokenizer;
 
 /**
  * 端口0 - 65535
  *   0 - 1023
  */
-public class TestSocket {
+public class TestSocket0 {
 	/**
 	 * 创建ServerSocket
 	 */
@@ -81,25 +80,6 @@ public class TestSocket {
 				String host = r.getHostString();
 				System.out.println(host + ":" + port);
 			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	@Test
-	public void tt(){
-		try {
-			InputStream is = ClassLoader.getSystemResourceAsStream("page.html");
-			byte[] buf = new byte[is.available()];
-			int len = -1 ;
-			is.read(buf);
-			is.close();
-			String s = new String(buf);
-			
-			String del = "<a";
-			StringTokenizer st = new StringTokenizer(s);
-			String ss = st.nextToken(del);
-			System.out.println(ss);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
