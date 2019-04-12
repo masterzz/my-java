@@ -4,9 +4,47 @@
     <bookmark url="file://$PROJECT_DIR$/src/thread/PCDemo5.java" line="56" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb8a24dd-cd8d-4c30-b256-6821cc2e5c28" name="Default Changelist" comment="练习2">
+    <list default="true" id="bb8a24dd-cd8d-4c30-b256-6821cc2e5c28" name="Default Changelist" comment="增加jdbc">
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/ConnectionAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/MyDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/TestC3p0DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/TestCallableStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/TestConnetionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/TestDBCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/TestJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/TestJDBC1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/TestJDBC2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/TestJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/TestLOB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/TestPreparedStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/TestTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc/WrappedConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/screenbroadcast/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/screenbroadcast/student/FrameUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/screenbroadcast/student/ReceiverThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/screenbroadcast/student/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/screenbroadcast/student/StudentUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/screenbroadcast/teacher/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/screenbroadcast/teacher/TeacherMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/udp/UdpReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/udp/UdpSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/udp/UdpSender2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/zip/TestZip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/thread/Practice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/thread/Practice2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-study/collection/ListDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-study/collection/ListDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-study/collection/TestTreeMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-study/collection/TestTreeMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-study/collection/TestTreeSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-study/collection/TestTreeSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-study/io/MultiThreadCopier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-study/io/MultiThreadCopier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-study/io/TestFile0.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-study/io/TestFile0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-study/io/gui/MyTextEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-study/io/gui/MyTextEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-study/io/seq/TestSeq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-study/io/seq/TestSeq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-study/network/downloader/Downloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-study/network/downloader/Downloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-study/network/qq/common/MessageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-study/network/qq/common/MessageFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-study/thread/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-study/thread/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-study/thread/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-study/thread/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-study/thread/ThreadDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-study/thread/ThreadDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-study/thread/Waiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-study/thread/Waiter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,14 +61,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/network/screenbroadcast/teacher/Teacher.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jdbc/jdbc/TestC3p0DataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="33" column="25" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="33" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/jdbc/jdbc/TestDBCP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -97,6 +141,13 @@
         <option value="$PROJECT_DIR$/src/network/qq/server/QQServer.java" />
         <option value="$PROJECT_DIR$/src/network/zip/TestZip.java" />
         <option value="$PROJECT_DIR$/src/network/screenbroadcast/teacher/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/zip/TestZip.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/screenbroadcast/student/ReceiverThread.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/screenbroadcast/teacher/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/jdbc/TestJDBC1.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/jdbc/ConnectionAdapter.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/jdbc/TestC3p0DataSource.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/jdbc/TestDBCP.java" />
       </list>
     </option>
   </component>
@@ -114,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,14 +182,14 @@
               <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-              <item name="screenbroadcast" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
@@ -148,7 +200,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,7 +209,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554217977701" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555056205995" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -166,15 +217,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Gitspace\github\my-java\java-study" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\gitspace\github\my-java\java-study\src\jdbc\jdbc" />
+      <recent name="H:\gitspace\github\my-java\java-study\src\jdbc" />
       <recent name="E:\Gitspace\github\my-java\java-study\src\network" />
       <recent name="E:\Gitspace\github\my-java\java-study\src" />
       <recent name="E:\Gitspace\github\my-java\java-study\src\io" />
-      <recent name="E:\Gitspace\github\my-java\java-study\src\gof" />
-      <recent name="E:\Gitspace\github\my-java\java-study\src\collection" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Gitspace\github\my-java\java-study" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,6 +368,7 @@
       <workItem from="1554738162041" duration="533000" />
       <workItem from="1554822085461" duration="276000" />
       <workItem from="1554997251676" duration="699000" />
+      <workItem from="1555046415438" duration="1814000" />
     </task>
     <task id="LOCAL-00001" summary="加了priority、Runnable接口部分">
       <created>1552792796041</created>
@@ -368,13 +420,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38321000" />
+    <option name="totallyTimeSpent" value="40135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3192133" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32326478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -393,7 +445,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32729805" />
       <window_info anchor="bottom" id="Problems" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -444,7 +496,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="加了priority、Runnable接口部分" />
     <MESSAGE value="练习2" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习2" />
+    <MESSAGE value="增加jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加jdbc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -477,60 +530,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/ThreadDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/ThreadDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/ThreadDemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/RunnableDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Thread.java" />
-    <entry file="file://$PROJECT_DIR$/src/thread/ThreadDemo6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/List.java" />
     <entry file="file://$PROJECT_DIR$/src/practice/thread/Practice1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3210">
@@ -579,17 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/jdk1.8.0_25/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3630">
-          <caret line="146" column="73" selection-start-line="146" selection-start-column="65" selection-end-line="146" selection-end-column="73" />
-          <folding>
-            <element signature="e#6252#6253#0" expanded="true" />
-            <element signature="e#6320#6321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://E:/jdk1.8.0_25/src.zip!/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/collection/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -601,13 +590,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/jdk1.8.0_25/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5430">
-          <caret line="236" column="45" selection-start-line="236" selection-start-column="45" selection-end-line="236" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://E:/jdk1.8.0_25/jre/lib/rt.jar!/sun/misc/URLClassPath.class" />
     <entry file="file://$PROJECT_DIR$/src/collection/TestMap0.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -632,20 +615,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/jdk1.8.0_25/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="3801" lean-forward="true" selection-start-line="3801" selection-end-line="3801" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk1.8.0_25/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="494" column="25" lean-forward="true" selection-start-line="494" selection-start-column="25" selection-end-line="494" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://E:/jdk1.8.0_25/src.zip!/java/util/Arrays.java" />
+    <entry file="jar://E:/jdk1.8.0_25/src.zip!/java/util/Collections.java" />
     <entry file="file://$PROJECT_DIR$/src/collection/TestArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1590">
@@ -825,18 +796,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/network/zip/TestZip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="428">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/network/screenbroadcast/teacher/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/screenbroadcast/teacher/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/screenbroadcast/student/ReceiverThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="159" column="41" selection-start-line="159" selection-start-column="41" selection-end-line="159" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/screenbroadcast/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/zip/TestZip.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/jdbc/ConnectionAdapter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/jdbc/TestJDBC1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/jdbc/TestCallableStatement.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/jdbc/TestC3p0DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/jdbc/TestDBCP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
